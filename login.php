@@ -59,7 +59,5 @@
         <h1>Don't have an account?<a href="accountCreation.php">create one</a></h1>
         <script src="login.js"></script>
     </body>
-   <!-- <footer>
-        <h4>Prepared by JONNAGADDALATARUNKUMAR 20191CSE0216 <br>and<br>JABIREDDYPRANEETHREDDY 20191CSE0207</h4>
-    </footer>-->
+  
 </html>
