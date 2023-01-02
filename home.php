@@ -140,7 +140,7 @@ img{
     </body>
    
     <footer>
-    <marquee><h1> A warm welcome from JonnagaddalaTarunkumar And JabireddyPraneethReddy<img src="namaste.png"> </h1></marquee>
+    <marquee><h1> A warm welcome from <img src="namaste.png"> </h1></marquee>
     </footer>
 
 </html>
