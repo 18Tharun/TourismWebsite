@@ -39,7 +39,7 @@
     </tr>
     <?php
     
-    $conn = new mysqli('localhost','root','',"tourism");
+    $conn = new mysqli('localhost','server_name','',"db_name");
     if (!$conn) {
         die ('Could not connect: ' . mysql_error());
     }
@@ -65,7 +65,7 @@
     </table>
 </body>
 <footer>
-    <marquee><h1> A warm welcome from JonnagaddalaTarunkumar And JabireddyPraneethReddy<img src="namaste.png"> </h1></marquee>
+    <marquee><h1> A warm welcome from <img src="namaste.png"> </h1></marquee>
     </footer>
 </html>
 
