@@ -29,7 +29,7 @@
     $Mail=$_POST['email'];
     $Password=$_POST['pwd'];
     
-    $conn = new mysqli('localhost','root','','tourism');
+    $conn = new mysqli('localhost','server_name','password',"db_name");
     if($conn->connect_error){
         die('connection failed :'.$conn->connect_error);
     }else{
