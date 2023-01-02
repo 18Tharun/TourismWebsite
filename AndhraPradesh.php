@@ -39,7 +39,7 @@
     </tr>
     <?php
     
-    $conn = new mysqli('localhost','server_name','',"db_name");
+    $conn = new mysqli('localhost','server_name','password',"db_name");
     if (!$conn) {
         die ('Could not connect: ' . mysql_error());
     }
